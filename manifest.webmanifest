@@ -1,0 +1,15 @@
+{
+  "name": "Billsyboos Notebook",
+  "short_name": "Notebook",
+  "description": "Handwritten notebook and calm project tracker for Billsyboos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3FAF9",
+  "theme_color": "#D3EDEA",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

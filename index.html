@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Billsyboos Notebook</title>
+<meta name="theme-color" content="#D3EDEA">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Notebook">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="topbar"></header>
+  <main id="view" aria-live="polite"></main>
+  <nav id="tabbar"></nav>
+  <button id="dumpBtn" data-act="dump" aria-label="Brain dump">
+    <svg viewBox="0 0 24 24"><path d="M4 20l4-1 11-11-3-3L5 16l-1 4z"/></svg><span>Brain dump</span>
+  </button>
+  <div id="editor" hidden></div>
+  <div id="sheet" hidden></div>
+  <div id="toast" role="status"></div>
+  <input type="file" id="fileInput" hidden>
+  <noscript>This notebook needs JavaScript turned on.</noscript>
+  <script src="app.js"></script>
+</body>
+</html>
